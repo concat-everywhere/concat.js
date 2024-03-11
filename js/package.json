@@ -1,0 +1,23 @@
+{
+  "name": "concat-everywhere",
+  "version": "0.0.1",
+  "description": "Concatenative programming in JavaScript",
+  "main": "concat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booniepepper/concat-everywhere.git"
+  },
+  "keywords": [
+    "concatenative",
+    "programming"
+  ],
+  "author": "J. R. \"Boonie Pepper\" Hill",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/booniepepper/concat-everywhere/issues"
+  },
+  "homepage": "https://github.com/booniepepper/concat-everywhere#readme"
+}
