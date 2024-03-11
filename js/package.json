@@ -1,10 +1,11 @@
 {
   "name": "concat-everywhere",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Concatenative programming in JavaScript",
-  "main": "concat.js",
+  "main": "lib/concat.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx testy"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/booniepepper/concat-everywhere/issues"
   },
-  "homepage": "https://github.com/booniepepper/concat-everywhere#readme"
+  "homepage": "https://github.com/booniepepper/concat-everywhere#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@pmoo/testy": "^7.0.2"
+  }
 }

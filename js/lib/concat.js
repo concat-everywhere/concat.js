@@ -1,13 +1,7 @@
-export const plus = (a, b) => a + b;
-export const minus = (a, b) => a - b;
-export const times = (a, b) => a * b;
-export const divBy = (a, b) => a / b;
+export * from './math.js';
+export * from './shuffle.js';
 
-export const dup = a => ({ _smush: [a, a] });
-export const drop = a => ({ _smush: [] });
-export const swap = (a, b) => ({ _smush: [b, a] });
-export const rot = (a, b, c) => ({ _smush: [b, a, c] });
-export const over = (a, b) => ({ _smush: [a, b, a] });
+export const _smush = (...a) => ({ _smush: a });
 
 const concatApply = (rawStack, term) => {
   if (typeof term !== 'function') return [...rawStack, term];
