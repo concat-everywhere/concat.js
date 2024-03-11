@@ -1,6 +1,6 @@
 {
   "name": "concat-everywhere",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Concatenative programming in JavaScript",
   "main": "lib/concat.js",
   "type": "module",

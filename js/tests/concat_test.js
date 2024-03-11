@@ -43,3 +43,11 @@ suite('Shuffling is all in order', () => {
     test('concat(19, 23, over) is [19, 23, 19]', () =>
         assert.that(concat(19, 23, over)).isEqualTo([19, 23, 19]));
 });
+
+suite('Interoperates with other JS functions', () => {
+    test('console.log', () =>
+        assert.that(concat(1, 2, console.log, dup)).isEqualTo([1, 2, 2]));
+
+    test('lots of functions and a lambda', () =>
+        assert.that(concat(2, console.log, 3, console.log, Math.pow, n => ~n)).isEqualTo([-9]));
+});
