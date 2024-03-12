@@ -30,3 +30,9 @@ const negativeNine = concat(
 console.log(negativeNine);
 // -9
 ```
+
+# Etc
+
+Released under BSD 3-Clause license, original version by [Justin "Boonie Pepper" Hill](https://so.dang.cool).
+
+[Sources on GitHub](https://github.com/concat-everywhere/concat.js)
