@@ -1,6 +1,6 @@
 {
   "name": "concat-everywhere",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Concatenative programming in JavaScript",
   "main": "lib/concat.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/booniepepper/concat-everywhere.git"
+    "url": "git+https://github.com/concat-everywhere/concat.js.git"
   },
   "keywords": [
     "concatenative",
@@ -18,9 +18,9 @@
   "author": "J. R. \"Boonie Pepper\" Hill",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/booniepepper/concat-everywhere/issues"
+    "url": "https://github.com/concat-everywhere/concat.js/issues"
   },
-  "homepage": "https://github.com/booniepepper/concat-everywhere#readme",
+  "homepage": "https://github.com/concat-everywhere/concat.js#readme",
   "dependencies": {},
   "devDependencies": {
     "@pmoo/testy": "^7.0.2"
